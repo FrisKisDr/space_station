@@ -47,7 +47,7 @@
 
 - type: marking
   id: BodyBlots
-  bodyPart: [ Chest, RArm, LArm, RLeg, LLeg ] 
+  bodyPart: [ Chest, RArm, LArm, RLeg, LLeg ]
   markingCategory: Overlay
   speciesRestriction: [TajaranSpecies]
   sprites:
@@ -71,6 +71,15 @@
   sprites:
     - sprite: Mobs/Customization/Tajaran/tajaran_overlay.rsi #Спрайты от prazat911
       state: skeleton_body
+
+- type: marking
+  id: BodySkeleton2
+  bodyPart: [ Chest, RArm, LArm, RLeg, LLeg ]
+  markingCategory: Overlay
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: Mobs/Customization/Tajaran/tajaran_overlay.rsi #Спрайты от prazat911
+      state: skeleton_body2
 
 - type: marking
   id: arm1
@@ -130,7 +139,7 @@
 
 - type: marking
   id: RLegGradient
-  bodyPart: RFoot 
+  bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [TajaranSpecies]
   sprites:
@@ -145,7 +154,7 @@
   speciesRestriction: [TajaranSpecies]
   sprites:
     - sprite: Mobs/Customization/Tajaran/tajaran_tail.rsi #Спрайты от moroz_3
-      state: wingler_3 
+      state: wingler_3
 
 - type: marking
   id: TailWingler2
@@ -154,7 +163,7 @@
   speciesRestriction: [TajaranSpecies]
   sprites:
     - sprite: Mobs/Customization/Tajaran/tajaran_tail.rsi #Спрайты от moroz_3
-      state: wingler_2 
+      state: wingler_2
 
 - type: marking
   id: TailWingler1
@@ -163,7 +172,7 @@
   speciesRestriction: [TajaranSpecies]
   sprites:
     - sprite: Mobs/Customization/Tajaran/tajaran_tail.rsi #Спрайты от moroz_3
-      state: wingler_1 
+      state: wingler_1
 
 - type: marking
   id: TailTip
@@ -222,7 +231,7 @@
     - sprite: Mobs/Customization/Tajaran/tajaran_head.rsi
       state: outears
     - sprite: Mobs/Customization/Tajaran/tajaran_head.rsi
-      state: inears 
+      state: inears
 ##
 
 - type: marking
@@ -309,7 +318,7 @@
 
 #Морда.
 - type: marking
-  id: Head4  
+  id: Head4
   bodyPart: Head
   markingCategory: Snout
   speciesRestriction: [TajaranSpecies]
@@ -318,13 +327,13 @@
       state: muzzleinears
 
 - type: marking
-  id: Head2 
+  id: Head2
   bodyPart: Head
   markingCategory: Snout
   speciesRestriction: [TajaranSpecies]
   sprites:
     - sprite: Mobs/Customization/Tajaran/tajaran_head.rsi
-      state: muzzle 
+      state: muzzle
 
 #Волосы.
 - type: marking
